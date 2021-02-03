@@ -1,0 +1,8 @@
+pipeline{
+agent any
+   stages ("build"){
+       steps{
+         sh 'echo build'
+       }
+    }
+}
